@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1120"/><stop offset="1" stop-color="#111C33"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1B2740" stroke-width="1"/></pattern></defs>
+<rect width="1200" height="660" fill="url(#bg)"/>
+<rect width="1200" height="660" fill="url(#grid)" opacity="0.55"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#41567A"/></marker></defs>
+<text x="48" y="52" font-size="20" fill="#E6EDF7" font-weight="600" text-anchor="start">系统结构</text>
+<text x="48" y="76" font-size="13" fill="#8FA3BF" font-weight="400" text-anchor="start">小程序只负责界面与交互，抽签与排名全在服务端算完再落库</text>
+<rect x="48" y="104" width="300" height="470" rx="14" fill="#151F33" stroke="#22304A" stroke-width="1"/>
+<text x="72" y="136" font-size="15" fill="#E6EDF7" font-weight="600" text-anchor="start">微信小程序</text>
+<text x="72" y="158" font-size="12" fill="#8FA3BF" font-weight="400" text-anchor="start">uni-app + Vue 2</text>
+<circle cx="78" cy="180" r="2.5" fill="#3D5170"/>
+<text x="92" y="184" font-size="12.5" fill="#B9C7DA" font-weight="400" text-anchor="start">登录 / 注册</text>
+<circle cx="78" cy="207" r="2.5" fill="#3D5170"/>
+<text x="92" y="211" font-size="12.5" fill="#B9C7DA" font-weight="400" text-anchor="start">总览</text>
+<circle cx="78" cy="234" r="2.5" fill="#3D5170"/>
+<text x="92" y="238" font-size="12.5" fill="#B9C7DA" font-weight="400" text-anchor="start">赛事列表 / 创建 / 详情</text>
+<circle cx="78" cy="261" r="2.5" fill="#3D5170"/>
+<text x="92" y="265" font-size="12.5" fill="#B9C7DA" font-weight="400" text-anchor="start">参赛名单</text>
+<circle cx="78" cy="288" r="2.5" fill="#3D5170"/>
+<text x="92" y="292" font-size="12.5" fill="#B9C7DA" font-weight="400" text-anchor="start">抽签配置 / 结果</text>
+<circle cx="78" cy="315" r="2.5" fill="#3D5170"/>
+<text x="92" y="319" font-size="12.5" fill="#B9C7DA" font-weight="400" text-anchor="start">对阵列表 / 记分 / 签表</text>
+<circle cx="78" cy="342" r="2.5" fill="#3D5170"/>
+<text x="92" y="346" font-size="12.5" fill="#B9C7DA" font-weight="400" text-anchor="start">成绩报告</text>
+<circle cx="78" cy="369" r="2.5" fill="#3D5170"/>
+<text x="92" y="373" font-size="12.5" fill="#B9C7DA" font-weight="400" text-anchor="start">选手库 / 批量导入</text>
+<rect x="68" y="406" width="260" height="66" rx="10" fill="#101A2C" stroke="#25344D" stroke-width="1"/>
+<text x="84" y="430" font-size="12" fill="#4ADE80" font-weight="600" text-anchor="start">utils/request.js</text>
+<text x="84" y="450" font-size="11.5" fill="#8FA3BF" font-weight="400" text-anchor="start">唯一网络出口：token、错误提示、</text>
+<text x="84" y="465" font-size="11.5" fill="#8FA3BF" font-weight="400" text-anchor="start">登录态失效处理都在这里</text>
+<path d="M356 340 H424" stroke="#41567A" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="390" y="328" font-size="11" fill="#8FA3BF" font-weight="400" text-anchor="middle">HTTP / JSON</text>
+<rect x="432" y="104" width="470" height="470" rx="14" fill="#151F33" stroke="#22304A" stroke-width="1"/>
+<text x="456" y="136" font-size="15" fill="#E6EDF7" font-weight="600" text-anchor="start">Spring Boot 3.2.2</text>
+<text x="456" y="158" font-size="12" fill="#8FA3BF" font-weight="400" text-anchor="start">JDK 17 · MyBatis-Plus 3.5.5</text>
+<rect x="452" y="182" width="430" height="66" rx="10" fill="#101A2C" stroke="#25344D" stroke-width="1"/>
+<rect x="452" y="182" width="4" height="66" rx="2" fill="#38BDF8"/>
+<text x="472" y="208" font-size="13" fill="#38BDF8" font-weight="600" text-anchor="start">Controller</text>
+<text x="472" y="229" font-size="11.5" fill="#8FA3BF" font-weight="400" text-anchor="start">参数校验 · 统一响应包装 · 身份拦截</text>
+<rect x="452" y="260" width="430" height="66" rx="10" fill="#101A2C" stroke="#25344D" stroke-width="1"/>
+<rect x="452" y="260" width="4" height="66" rx="2" fill="#4ADE80"/>
+<text x="472" y="286" font-size="13" fill="#4ADE80" font-weight="600" text-anchor="start">Service</text>
+<text x="472" y="307" font-size="11.5" fill="#8FA3BF" font-weight="400" text-anchor="start">事务边界 · 状态流转 · 抽签编排</text>
+<rect x="452" y="338" width="430" height="66" rx="10" fill="#101A2C" stroke="#25344D" stroke-width="1"/>
+<rect x="452" y="338" width="4" height="66" rx="2" fill="#FBBF24"/>
+<text x="472" y="364" font-size="13" fill="#FBBF24" font-weight="600" text-anchor="start">algorithm</text>
+<text x="472" y="385" font-size="11.5" fill="#8FA3BF" font-weight="400" text-anchor="start">纯计算，不依赖框架与数据库</text>
+<rect x="452" y="416" width="430" height="66" rx="10" fill="#101A2C" stroke="#25344D" stroke-width="1"/>
+<rect x="452" y="416" width="4" height="66" rx="2" fill="#FB7185"/>
+<text x="472" y="442" font-size="13" fill="#FB7185" font-weight="600" text-anchor="start">Mapper</text>
+<text x="472" y="463" font-size="11.5" fill="#8FA3BF" font-weight="400" text-anchor="start">MyBatis-Plus，7 张表</text>
+<text x="456" y="508" font-size="11.5" fill="#9FB0C7" font-weight="400" text-anchor="start">algorithm 包里 9 个类、约 2100 行：</text>
+<text x="456" y="528" font-size="11.5" fill="#9FB0C7" font-weight="400" text-anchor="start">DrawEngine / BracketBuilder / GroupKnockoutEngine</text>
+<text x="456" y="548" font-size="11.5" fill="#9FB0C7" font-weight="400" text-anchor="start">RoundRobinEngine / Standing / FairnessReport</text>
+<path d="M904 300 H956" stroke="#41567A" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="960" y="236" width="196" height="90" rx="12" fill="#151F33" stroke="#22304A" stroke-width="1"/>
+<text x="980" y="268" font-size="14" fill="#E6EDF7" font-weight="600" text-anchor="start">MySQL 8</text>
+<text x="980" y="292" font-size="11.5" fill="#8FA3BF" font-weight="400" text-anchor="start">7 张表 · utf8mb4</text>
+<text x="980" y="310" font-size="11" fill="#7E93AE" font-weight="400" text-anchor="start">赛事为根，其余挂 tournament_id</text>
+<path d="M904 470 H956" stroke="#41567A" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#ar)"/>
+<rect x="960" y="404" width="196" height="128" rx="12" fill="#131C2D" stroke="#2B3A54" stroke-width="1" stroke-dasharray="5 4"/>
+<text x="980" y="434" font-size="13" fill="#E6EDF7" font-weight="600" text-anchor="start">Ollama（可选）</text>
+<text x="980" y="456" font-size="11.5" fill="#8FA3BF" font-weight="400" text-anchor="start">qwen2.5:7b</text>
+<text x="980" y="478" font-size="11" fill="#7E93AE" font-weight="400" text-anchor="start">只判列语义，几十个 token；</text>
+<text x="980" y="495" font-size="11" fill="#7E93AE" font-weight="400" text-anchor="start">未启动 / 超时 / 解析失败</text>
+<text x="980" y="512" font-size="11" fill="#4ADE80" font-weight="400" text-anchor="start">一律退回规则解析</text>
+<text x="48" y="616" font-size="12.5" fill="#7E93AE" font-weight="400" text-anchor="start">算法层独立成包的直接好处：换赛制不用动业务代码，也能脱离数据库单独跑单元测试。</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1120"/><stop offset="1" stop-color="#111C33"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1B2740" stroke-width="1"/></pattern></defs>
+<rect width="1200" height="340" fill="url(#bg)"/>
+<rect width="1200" height="340" fill="url(#grid)" opacity="0.55"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#41567A"/></marker></defs>
+<rect x="880" y="56" width="60" height="228" rx="8" fill="#131E31" stroke="#1E2C44" stroke-width="1"/>
+<rect x="954" y="64" width="60" height="212" rx="8" fill="#131E31" stroke="#1E2C44" stroke-width="1"/>
+<rect x="1028" y="72" width="60" height="196" rx="8" fill="#131E31" stroke="#1E2C44" stroke-width="1"/>
+<rect x="1102" y="80" width="60" height="180" rx="8" fill="#131E31" stroke="#1E2C44" stroke-width="1"/>
+<path d="M940 80 H954" stroke="#2C3D5C" stroke-width="1.5"/>
+<path d="M940 138 H954" stroke="#2C3D5C" stroke-width="1.5"/>
+<path d="M940 196 H954" stroke="#2C3D5C" stroke-width="1.5"/>
+<path d="M940 254 H954" stroke="#2C3D5C" stroke-width="1.5"/>
+<path d="M1014 84 H1028" stroke="#2C3D5C" stroke-width="1.5"/>
+<path d="M1014 142 H1028" stroke="#2C3D5C" stroke-width="1.5"/>
+<path d="M1014 200 H1028" stroke="#2C3D5C" stroke-width="1.5"/>
+<path d="M1014 258 H1028" stroke="#2C3D5C" stroke-width="1.5"/>
+<path d="M1088 88 H1102" stroke="#2C3D5C" stroke-width="1.5"/>
+<path d="M1088 146 H1102" stroke="#2C3D5C" stroke-width="1.5"/>
+<path d="M1088 204 H1102" stroke="#2C3D5C" stroke-width="1.5"/>
+<path d="M1088 262 H1102" stroke="#2C3D5C" stroke-width="1.5"/>
+<rect x="888" y="76" width="44" height="10" rx="3" fill="#1F2E47"/>
+<rect x="888" y="103" width="38" height="10" rx="3" fill="#1F2E47"/>
+<rect x="888" y="130" width="44" height="10" rx="3" fill="#1F2E47"/>
+<rect x="888" y="157" width="38" height="10" rx="3" fill="#1F2E47"/>
+<rect x="888" y="184" width="44" height="10" rx="3" fill="#1F2E47"/>
+<rect x="888" y="211" width="38" height="10" rx="3" fill="#1F2E47"/>
+<rect x="888" y="238" width="44" height="10" rx="3" fill="#1F2E47"/>
+<rect x="888" y="265" width="38" height="10" rx="3" fill="#1F2E47"/>
+<circle cx="910" cy="68" r="3" fill="#4ADE80"/>
+<text x="64" y="92" font-size="12" fill="#4ADE80" font-weight="600" text-anchor="start" letter-spacing="3">BADMINTON DRAW ENGINE</text>
+<text x="64" y="154" font-size="40" fill="#E6EDF7" font-weight="600" text-anchor="start" letter-spacing="-1">羽毛球赛事智能抽签与编排系统</text>
+<text x="64" y="196" font-size="16" fill="#8FA3BF" font-weight="400" text-anchor="start">把种子定位、同单位回避写成算法，赛前抽签到赛中记分一条链路走完</text>
+<rect x="64" y="226" width="127.0" height="30" rx="15" fill="#101A2C" stroke="#38BDF866" stroke-width="1"/>
+<text x="127.5" y="246" font-size="12" fill="#38BDF8" font-weight="500" text-anchor="middle">Spring Boot 3.2</text>
+<rect x="203.0" y="226" width="127.0" height="30" rx="15" fill="#101A2C" stroke="#4ADE8066" stroke-width="1"/>
+<text x="266.5" y="246" font-size="12" fill="#4ADE80" font-weight="500" text-anchor="middle">uni-app / 微信小程序</text>
+<rect x="342.0" y="226" width="67.80000000000001" height="30" rx="15" fill="#101A2C" stroke="#FBBF2466" stroke-width="1"/>
+<text x="375.9" y="246" font-size="12" fill="#FBBF24" font-weight="500" text-anchor="middle">MySQL 8</text>
+<rect x="421.8" y="226" width="134.4" height="30" rx="15" fill="#101A2C" stroke="#FB718566" stroke-width="1"/>
+<text x="489.0" y="246" font-size="12" fill="#FB7185" font-weight="500" text-anchor="middle">20 tests passing</text>
+<text x="64" y="296" font-size="12" fill="#5F7399" font-weight="400" text-anchor="start">大学生创新创业训练计划项目 · 项目编号 S202510722098</text>
+</svg>

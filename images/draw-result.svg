@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="900" viewBox="0 0 1240 900" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1120"/><stop offset="1" stop-color="#111C33"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1B2740" stroke-width="1"/></pattern></defs>
+<rect width="1240" height="900" fill="url(#bg)"/>
+<rect width="1240" height="900" fill="url(#grid)" opacity="0.55"/>
+<text x="48" y="54" font-size="20" fill="#E6EDF7" font-weight="600" text-anchor="start">16 人单淘汰抽签结果</text>
+<text x="48" y="78" font-size="13" fill="#8FA3BF" font-weight="400" text-anchor="start">下面这张图由工程里的 DrawEngine 直接跑出来，不是手绘示意</text>
+<text x="48" y="96" font-size="12" fill="#7E93AE" font-weight="600" text-anchor="start" letter-spacing="1">1/8 决赛</text>
+<text x="128" y="96" font-size="11" fill="#56698A" font-weight="400" text-anchor="start">8 场</text>
+<text x="328" y="96" font-size="12" fill="#7E93AE" font-weight="600" text-anchor="start" letter-spacing="1">1/4 决赛</text>
+<text x="408" y="96" font-size="11" fill="#56698A" font-weight="400" text-anchor="start">4 场</text>
+<text x="608" y="96" font-size="12" fill="#7E93AE" font-weight="600" text-anchor="start" letter-spacing="1">半决赛</text>
+<text x="688" y="96" font-size="11" fill="#56698A" font-weight="400" text-anchor="start">2 场</text>
+<text x="888" y="96" font-size="12" fill="#7E93AE" font-weight="600" text-anchor="start" letter-spacing="1">决赛</text>
+<text x="968" y="96" font-size="11" fill="#56698A" font-weight="400" text-anchor="start">1 场</text>
+<rect x="48" y="104.0" width="250" height="58" rx="9" fill="#131E31" stroke="#243350" stroke-width="1"/>
+<rect x="56" y="115.0" width="3" height="14" rx="1.5" fill="#FB7185"/>
+<text x="66" y="125.0" font-size="12.5" fill="#E6EDF7" font-weight="500" text-anchor="start">黄启帆</text>
+<circle cx="268" cy="121.0" r="8" fill="#FB718522" stroke="#FB718577"/>
+<text x="268" y="125.0" font-size="9.5" fill="#FB7185" font-weight="600" text-anchor="middle">1</text>
+<rect x="56" y="137.0" width="3" height="14" rx="1.5" fill="#FBBF24"/>
+<text x="66" y="147.0" font-size="12.5" fill="#E6EDF7" font-weight="500" text-anchor="start">吴伊然</text>
+<rect x="48" y="176.0" width="250" height="58" rx="9" fill="#131E31" stroke="#243350" stroke-width="1"/>
+<rect x="56" y="187.0" width="3" height="14" rx="1.5" fill="#4ADE80"/>
+<text x="66" y="197.0" font-size="12.5" fill="#E6EDF7" font-weight="500" text-anchor="start">何晟睿</text>
+<rect x="56" y="209.0" width="3" height="14" rx="1.5" fill="#38BDF8"/>
+<text x="66" y="219.0" font-size="12.5" fill="#E6EDF7" font-weight="500" text-anchor="start">陈嘉禾</text>
+<rect x="48" y="248.0" width="250" height="58" rx="9" fill="#131E31" stroke="#243350" stroke-width="1"/>
+<rect x="56" y="259.0" width="3" height="14" rx="1.5" fill="#FBBF24"/>
+<text x="66" y="269.0" font-size="12.5" fill="#E6EDF7" font-weight="500" text-anchor="start">冯书杭</text>
+<rect x="56" y="281.0" width="3" height="14" rx="1.5" fill="#38BDF8"/>
+<text x="66" y="291.0" font-size="12.5" fill="#E6EDF7" font-weight="500" text-anchor="start">孙泽宇</text>
+<rect x="48" y="320.0" width="250" height="58" rx="9" fill="#131E31" stroke="#243350" stroke-width="1"/>
+<rect x="56" y="331.0" width="3" height="14" rx="1.5" fill="#38BDF8"/>
+<text x="66" y="341.0" font-size="12.5" fill="#E6EDF7" font-weight="500" text-anchor="start">赵启明</text>
+<rect x="56" y="353.0" width="3" height="14" rx="1.5" fill="#4ADE80"/>
+<text x="66" y="363.0" font-size="12.5" fill="#E6EDF7" font-weight="500" text-anchor="start">徐怀瑾</text>
+<circle cx="268" cy="359.0" r="8" fill="#4ADE8022" stroke="#4ADE8077"/>
+<text x="268" y="363.0" font-size="9.5" fill="#4ADE80" font-weight="600" text-anchor="middle">4</text>
+<rect x="48" y="392.0" width="250" height="58" rx="9" fill="#131E31" stroke="#243350" stroke-width="1"/>
+<rect x="56" y="403.0" width="3" height="14" rx="1.5" fill="#FBBF24"/>
+<text x="66" y="413.0" font-size="12.5" fill="#E6EDF7" font-weight="500" text-anchor="start">周文清</text>
+<circle cx="268" cy="409.0" r="8" fill="#FBBF2422" stroke="#FBBF2477"/>
+<text x="268" y="413.0" font-size="9.5" fill="#FBBF24" font-weight="600" text-anchor="middle">3</text>
+<rect x="56" y="425.0" width="3" height="14" rx="1.5" fill="#38BDF8"/>
+<text x="66" y="435.0" font-size="12.5" fill="#E6EDF7" font-weight="500" text-anchor="start">张一鸣</text>
+<rect x="48" y="464.0" width="250" height="58" rx="9" fill="#131E31" stroke="#243350" stroke-width="1"/>
+<rect x="56" y="475.0" width="3" height="14" rx="1.5" fill="#FB7185"/>
+<text x="66" y="485.0" font-size="12.5" fill="#E6EDF7" font-weight="500" text-anchor="start">林彦舟</text>
+<rect x="56" y="497.0" width="3" height="14" rx="1.5" fill="#4ADE80"/>
+<text x="66" y="507.0" font-size="12.5" fill="#E6EDF7" font-weight="500" text-anchor="start">许知微</text>
+<rect x="48" y="536.0" width="250" height="58" rx="9" fill="#131E31" stroke="#243350" stroke-width="1"/>
+<rect x="56" y="547.0" width="3" height="14" rx="1.5" fill="#4ADE80"/>
+<text x="66" y="557.0" font-size="12.5" fill="#E6EDF7" font-weight="500" text-anchor="start">高承宇</text>
+<rect x="56" y="569.0" width="3" height="14" rx="1.5" fill="#38BDF8"/>
+<text x="66" y="579.0" font-size="12.5" fill="#E6EDF7" font-weight="500" text-anchor="start">李思远</text>
+<rect x="48" y="608.0" width="250" height="58" rx="9" fill="#131E31" stroke="#243350" stroke-width="1"/>
+<rect x="56" y="619.0" width="3" height="14" rx="1.5" fill="#FBBF24"/>
+<text x="66" y="629.0" font-size="12.5" fill="#E6EDF7" font-weight="500" text-anchor="start">郑允诺</text>
+<rect x="56" y="641.0" width="3" height="14" rx="1.5" fill="#38BDF8"/>
+<text x="66" y="651.0" font-size="12.5" fill="#E6EDF7" font-weight="500" text-anchor="start">王浩然</text>
+<circle cx="268" cy="647.0" r="8" fill="#38BDF822" stroke="#38BDF877"/>
+<text x="268" y="651.0" font-size="9.5" fill="#38BDF8" font-weight="600" text-anchor="middle">2</text>
+<rect x="328" y="140.0" width="250" height="58" rx="9" fill="#131E31" stroke="#243350" stroke-width="1"/>
+<circle cx="344" cy="157.0" r="2.4" fill="#2C3B57"/>
+<text x="354" y="161.0" font-size="11.5" fill="#5A6E8C" font-weight="400" text-anchor="start">胜者 1/8-1</text>
+<circle cx="344" cy="179.0" r="2.4" fill="#2C3B57"/>
+<text x="354" y="183.0" font-size="11.5" fill="#5A6E8C" font-weight="400" text-anchor="start">胜者 1/8-2</text>
+<rect x="328" y="284.0" width="250" height="58" rx="9" fill="#131E31" stroke="#243350" stroke-width="1"/>
+<circle cx="344" cy="301.0" r="2.4" fill="#2C3B57"/>
+<text x="354" y="305.0" font-size="11.5" fill="#5A6E8C" font-weight="400" text-anchor="start">胜者 1/8-3</text>
+<circle cx="344" cy="323.0" r="2.4" fill="#2C3B57"/>
+<text x="354" y="327.0" font-size="11.5" fill="#5A6E8C" font-weight="400" text-anchor="start">胜者 1/8-4</text>
+<rect x="328" y="428.0" width="250" height="58" rx="9" fill="#131E31" stroke="#243350" stroke-width="1"/>
+<circle cx="344" cy="445.0" r="2.4" fill="#2C3B57"/>
+<text x="354" y="449.0" font-size="11.5" fill="#5A6E8C" font-weight="400" text-anchor="start">胜者 1/8-5</text>
+<circle cx="344" cy="467.0" r="2.4" fill="#2C3B57"/>
+<text x="354" y="471.0" font-size="11.5" fill="#5A6E8C" font-weight="400" text-anchor="start">胜者 1/8-6</text>
+<rect x="328" y="572.0" width="250" height="58" rx="9" fill="#131E31" stroke="#243350" stroke-width="1"/>
+<circle cx="344" cy="589.0" r="2.4" fill="#2C3B57"/>
+<text x="354" y="593.0" font-size="11.5" fill="#5A6E8C" font-weight="400" text-anchor="start">胜者 1/8-7</text>
+<circle cx="344" cy="611.0" r="2.4" fill="#2C3B57"/>
+<text x="354" y="615.0" font-size="11.5" fill="#5A6E8C" font-weight="400" text-anchor="start">胜者 1/8-8</text>
+<rect x="608" y="212.0" width="250" height="58" rx="9" fill="#131E31" stroke="#243350" stroke-width="1"/>
+<circle cx="624" cy="229.0" r="2.4" fill="#2C3B57"/>
+<text x="634" y="233.0" font-size="11.5" fill="#5A6E8C" font-weight="400" text-anchor="start">胜者 1/4-1</text>
+<circle cx="624" cy="251.0" r="2.4" fill="#2C3B57"/>
+<text x="634" y="255.0" font-size="11.5" fill="#5A6E8C" font-weight="400" text-anchor="start">胜者 1/4-2</text>
+<rect x="608" y="500.0" width="250" height="58" rx="9" fill="#131E31" stroke="#243350" stroke-width="1"/>
+<circle cx="624" cy="517.0" r="2.4" fill="#2C3B57"/>
+<text x="634" y="521.0" font-size="11.5" fill="#5A6E8C" font-weight="400" text-anchor="start">胜者 1/4-3</text>
+<circle cx="624" cy="539.0" r="2.4" fill="#2C3B57"/>
+<text x="634" y="543.0" font-size="11.5" fill="#5A6E8C" font-weight="400" text-anchor="start">胜者 1/4-4</text>
+<rect x="888" y="356.0" width="250" height="58" rx="9" fill="#131E31" stroke="#243350" stroke-width="1"/>
+<circle cx="904" cy="373.0" r="2.4" fill="#2C3B57"/>
+<text x="914" y="377.0" font-size="11.5" fill="#5A6E8C" font-weight="400" text-anchor="start">胜者 半决-1</text>
+<circle cx="904" cy="395.0" r="2.4" fill="#2C3B57"/>
+<text x="914" y="399.0" font-size="11.5" fill="#5A6E8C" font-weight="400" text-anchor="start">胜者 半决-2</text>
+<text x="1013.0" y="436.0" font-size="10.5" fill="#56698A" font-weight="400" text-anchor="middle">冠军从这里产生</text>
+<path d="M298 133.0 H313.0 V205.0 H298" fill="none" stroke="#2B3B58" stroke-width="1.4"/>
+<path d="M313.0 169.0 H328" fill="none" stroke="#2B3B58" stroke-width="1.4"/>
+<path d="M298 277.0 H313.0 V349.0 H298" fill="none" stroke="#2B3B58" stroke-width="1.4"/>
+<path d="M313.0 313.0 H328" fill="none" stroke="#2B3B58" stroke-width="1.4"/>
+<path d="M298 421.0 H313.0 V493.0 H298" fill="none" stroke="#2B3B58" stroke-width="1.4"/>
+<path d="M313.0 457.0 H328" fill="none" stroke="#2B3B58" stroke-width="1.4"/>
+<path d="M298 565.0 H313.0 V637.0 H298" fill="none" stroke="#2B3B58" stroke-width="1.4"/>
+<path d="M313.0 601.0 H328" fill="none" stroke="#2B3B58" stroke-width="1.4"/>
+<path d="M578 169.0 H593.0 V313.0 H578" fill="none" stroke="#2B3B58" stroke-width="1.4"/>
+<path d="M593.0 241.0 H608" fill="none" stroke="#2B3B58" stroke-width="1.4"/>
+<path d="M578 457.0 H593.0 V601.0 H578" fill="none" stroke="#2B3B58" stroke-width="1.4"/>
+<path d="M593.0 529.0 H608" fill="none" stroke="#2B3B58" stroke-width="1.4"/>
+<path d="M858 241.0 H873.0 V529.0 H858" fill="none" stroke="#2B3B58" stroke-width="1.4"/>
+<path d="M873.0 385.0 H888" fill="none" stroke="#2B3B58" stroke-width="1.4"/>
+<rect x="48" y="712" width="1144" height="142" rx="14" fill="#101A2C" stroke="#25344D" stroke-width="1"/>
+<text x="72" y="746" font-size="14" fill="#E6EDF7" font-weight="600" text-anchor="start">公平性报告</text>
+<text x="72" y="768" font-size="11" fill="#6F84A1" font-weight="400" text-anchor="start">抽签完成后自动计算，随结果一起返回</text>
+<text x="72" y="818" font-size="40" fill="#4ADE80" font-weight="600" text-anchor="start">97.1</text>
+<text x="150" y="818" font-size="13" fill="#6F84A1" font-weight="400" text-anchor="start">/ 100</text>
+<text x="300" y="754" font-size="11" fill="#7E93AE" font-weight="400" text-anchor="start">首轮同单位对阵</text>
+<text x="300" y="786" font-size="20" fill="#E6EDF7" font-weight="600" text-anchor="start">0 对</text>
+<text x="300" y="810" font-size="10.5" fill="#5E7391" font-weight="400" text-anchor="start">规避达成率 100%</text>
+<text x="522" y="754" font-size="11" fill="#7E93AE" font-weight="400" text-anchor="start">前两轮内同单位相遇</text>
+<text x="522" y="786" font-size="20" fill="#E6EDF7" font-weight="600" text-anchor="start">7 处</text>
+<text x="522" y="810" font-size="10.5" fill="#5E7391" font-weight="400" text-anchor="start">同单位组合共 28 对</text>
+<text x="744" y="754" font-size="11" fill="#7E93AE" font-weight="400" text-anchor="start">种子分区分布</text>
+<text x="744" y="786" font-size="20" fill="#E6EDF7" font-weight="600" text-anchor="start">1-1-1-1</text>
+<text x="744" y="810" font-size="10.5" fill="#5E7391" font-weight="400" text-anchor="start">四个分区各 1 名种子</text>
+<text x="966" y="754" font-size="11" fill="#7E93AE" font-weight="400" text-anchor="start">分区实力标准差</text>
+<text x="966" y="786" font-size="20" fill="#E6EDF7" font-weight="600" text-anchor="start">13.84</text>
+<text x="966" y="810" font-size="10.5" fill="#5E7391" font-weight="400" text-anchor="start">各分区实力总分 297/260/288/287</text>
+<rect x="48" y="880" width="10" height="10" rx="3" fill="#38BDF8"/>
+<text x="64" y="889" font-size="11" fill="#7E93AE" font-weight="400" text-anchor="start">计算机学院</text>
+<rect x="129.5" y="880" width="10" height="10" rx="3" fill="#FBBF24"/>
+<text x="145.5" y="889" font-size="11" fill="#7E93AE" font-weight="400" text-anchor="start">文学院</text>
+<rect x="188.0" y="880" width="10" height="10" rx="3" fill="#4ADE80"/>
+<text x="204.0" y="889" font-size="11" fill="#7E93AE" font-weight="400" text-anchor="start">外国语学院</text>
+<rect x="269.5" y="880" width="10" height="10" rx="3" fill="#FB7185"/>
+<text x="285.5" y="889" font-size="11" fill="#7E93AE" font-weight="400" text-anchor="start">体育学院</text>
+<text x="1000" y="889" font-size="11" fill="#7E93AE" font-weight="400" text-anchor="start">圆圈数字 = 种子顺位</text>
+</svg>

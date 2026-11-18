@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1120"/><stop offset="1" stop-color="#111C33"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1B2740" stroke-width="1"/></pattern></defs>
+<rect width="1200" height="380" fill="url(#bg)"/>
+<rect width="1200" height="380" fill="url(#grid)" opacity="0.55"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#41567A"/></marker></defs>
+<text x="48" y="52" font-size="20" fill="#E6EDF7" font-weight="600" text-anchor="start">名单导入：规则解析兜底，模型只做补充</text>
+<text x="48" y="76" font-size="13" fill="#8FA3BF" font-weight="400" text-anchor="start">各院系交上来的 Excel 列顺序不固定、表头写法不一，双打还常写在同一格里</text>
+<rect x="48" y="112" width="210" height="110" rx="12" fill="#151F33" stroke="#22304A" stroke-width="1"/>
+<text x="68" y="146" font-size="13.5" fill="#E6EDF7" font-weight="600" text-anchor="start">Excel / 粘贴文本</text>
+<text x="68" y="172" font-size="11.5" fill="#8FA3BF" font-weight="400" text-anchor="start">Apache POI 读取</text>
+<text x="68" y="194" font-size="11.5" fill="#8FA3BF" font-weight="400" text-anchor="start">统一成二维字符串数组</text>
+<path d="M262 167 H302" stroke="#41567A" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="306" y="112" width="250" height="110" rx="12" fill="#151F33" stroke="#22304A" stroke-width="1"/>
+<text x="326" y="146" font-size="13.5" fill="#E6EDF7" font-weight="600" text-anchor="start">表头识别</text>
+<text x="326" y="172" font-size="11.5" fill="#8FA3BF" font-weight="400" text-anchor="start">内置 30+ 别名写法</text>
+<text x="326" y="194" font-size="11" fill="#8FA3BF" font-weight="400" text-anchor="start">长写法优先，避免「男子单打」误匹配</text>
+<path d="M560 167 H600" stroke="#41567A" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="604" y="96" width="268" height="142" rx="12" fill="#101A2C" stroke="#2B3A54" stroke-width="1"/>
+<text x="624" y="128" font-size="13.5" fill="#4ADE80" font-weight="600" text-anchor="start">规则解析（永远可用）</text>
+<text x="624" y="154" font-size="11.5" fill="#8FA3BF" font-weight="400" text-anchor="start">字段格式校验、双打拆对</text>
+<text x="624" y="176" font-size="11.5" fill="#8FA3BF" font-weight="400" text-anchor="start">手机号 / 学号 / 姓名清洗</text>
+<text x="624" y="198" font-size="11.5" fill="#8FA3BF" font-weight="400" text-anchor="start">水平分缺失记 0</text>
+<text x="624" y="222" font-size="11" fill="#7E93AE" font-weight="400" text-anchor="start">识别不出的列留空，不猜</text>
+<path d="M876 167 H916" stroke="#41567A" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="920" y="96" width="232" height="142" rx="12" fill="#151F33" stroke="#22304A" stroke-width="1"/>
+<text x="940" y="128" font-size="13.5" fill="#E6EDF7" font-weight="600" text-anchor="start">预览 + 确认</text>
+<text x="940" y="154" font-size="11.5" fill="#8FA3BF" font-weight="400" text-anchor="start">按水平分自动标前 N 名为种子</text>
+<text x="940" y="176" font-size="11.5" fill="#8FA3BF" font-weight="400" text-anchor="start">可逐行改、可整批丢弃</text>
+<text x="940" y="198" font-size="11.5" fill="#8FA3BF" font-weight="400" text-anchor="start">确认后才写库</text>
+<rect x="604" y="262" width="268" height="74" rx="12" fill="#131C2D" stroke="#2B3A54" stroke-width="1" stroke-dasharray="5 4"/>
+<text x="624" y="290" font-size="12.5" fill="#38BDF8" font-weight="600" text-anchor="start">Ollama 列语义识别（可选）</text>
+<text x="624" y="312" font-size="11.5" fill="#8FA3BF" font-weight="400" text-anchor="start">只返回「哪一列是什么字段」</text>
+<path d="M604 300 H572 V206" fill="none" stroke="#FB718566" stroke-width="1.4" stroke-dasharray="6 5" marker-end="url(#ar)"/>
+<text x="560" y="318" font-size="11" fill="#7FA6C9" font-weight="400" text-anchor="end">列映射只回填空缺字段</text>
+<text x="560" y="336" font-size="11" fill="#7FA6C9" font-weight="400" text-anchor="end">模型不可用则直接跳过</text>
+<text x="48" y="366" font-size="12" fill="#7E93AE" font-weight="400" text-anchor="start">模型只填空缺字段，不覆盖规则已识别出的值 —— 这样不必在两个结果之间做没有把握的取舍。</text>
+</svg>

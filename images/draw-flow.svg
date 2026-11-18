@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1120"/><stop offset="1" stop-color="#111C33"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1B2740" stroke-width="1"/></pattern></defs>
+<rect width="1200" height="430" fill="url(#bg)"/>
+<rect width="1200" height="430" fill="url(#grid)" opacity="0.55"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#41567A"/></marker></defs>
+<text x="48" y="52" font-size="20" fill="#E6EDF7" font-weight="600" text-anchor="start">单淘汰抽签的四个步骤</text>
+<text x="48" y="76" font-size="13" fill="#8FA3BF" font-weight="400" text-anchor="start">种子按蛇形落位，非种子按冲突代价择位，最后用冲突图做局部搜索</text>
+<rect x="48" y="112" width="262" height="172" rx="14" fill="#151F33" stroke="#22304A" stroke-width="1"/>
+<text x="72" y="150" font-size="13" fill="#38BDF8" font-weight="700" text-anchor="start" letter-spacing="1">01</text>
+<text x="72" y="182" font-size="17" fill="#E6EDF7" font-weight="600" text-anchor="start">种子蛇形落位</text>
+<circle cx="78" cy="210" r="2.2" fill="#3D5170"/>
+<text x="90" y="214" font-size="12" fill="#A9B9CE" font-weight="400" text-anchor="start">1 号首位、2 号末位</text>
+<circle cx="78" cy="234" r="2.2" fill="#3D5170"/>
+<text x="90" y="238" font-size="12" fill="#A9B9CE" font-weight="400" text-anchor="start">递推展开，1~4 号分处四区</text>
+<circle cx="78" cy="258" r="2.2" fill="#3D5170"/>
+<text x="90" y="262" font-size="12" fill="#A9B9CE" font-weight="400" text-anchor="start">种子位置此后不再移动</text>
+<path d="M314 198 H342" stroke="#41567A" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="344" y="112" width="262" height="172" rx="14" fill="#151F33" stroke="#22304A" stroke-width="1"/>
+<text x="368" y="150" font-size="13" fill="#4ADE80" font-weight="700" text-anchor="start" letter-spacing="1">02</text>
+<text x="368" y="182" font-size="17" fill="#E6EDF7" font-weight="600" text-anchor="start">轮空分配</text>
+<circle cx="374" cy="210" r="2.2" fill="#3D5170"/>
+<text x="386" y="214" font-size="12" fill="#A9B9CE" font-weight="400" text-anchor="start">优先给高顺位种子</text>
+<circle cx="374" cy="234" r="2.2" fill="#3D5170"/>
+<text x="386" y="238" font-size="12" fill="#A9B9CE" font-weight="400" text-anchor="start">其余按 1/4 区轮转摊平</text>
+<circle cx="374" cy="258" r="2.2" fill="#3D5170"/>
+<text x="386" y="262" font-size="12" fill="#A9B9CE" font-weight="400" text-anchor="start">避免轮空扎堆在一侧</text>
+<path d="M610 198 H638" stroke="#41567A" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="640" y="112" width="262" height="172" rx="14" fill="#151F33" stroke="#22304A" stroke-width="1"/>
+<text x="664" y="150" font-size="13" fill="#FBBF24" font-weight="700" text-anchor="start" letter-spacing="1">03</text>
+<text x="664" y="182" font-size="17" fill="#E6EDF7" font-weight="600" text-anchor="start">非种子填充</text>
+<circle cx="670" cy="210" r="2.2" fill="#3D5170"/>
+<text x="682" y="214" font-size="12" fill="#A9B9CE" font-weight="400" text-anchor="start">按单位人数从多到少排</text>
+<circle cx="670" cy="234" r="2.2" fill="#3D5170"/>
+<text x="682" y="238" font-size="12" fill="#A9B9CE" font-weight="400" text-anchor="start">逐位计算相遇代价</text>
+<circle cx="670" cy="258" r="2.2" fill="#3D5170"/>
+<text x="682" y="262" font-size="12" fill="#A9B9CE" font-weight="400" text-anchor="start">代价相同则等概率随机</text>
+<path d="M906 198 H934" stroke="#41567A" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="936" y="112" width="262" height="172" rx="14" fill="#151F33" stroke="#22304A" stroke-width="1"/>
+<text x="960" y="150" font-size="13" fill="#FB7185" font-weight="700" text-anchor="start" letter-spacing="1">04</text>
+<text x="960" y="182" font-size="17" fill="#E6EDF7" font-weight="600" text-anchor="start">死签修正</text>
+<circle cx="966" cy="210" r="2.2" fill="#3D5170"/>
+<text x="978" y="214" font-size="12" fill="#A9B9CE" font-weight="400" text-anchor="start">冲突图 + 最陡下降</text>
+<circle cx="966" cy="234" r="2.2" fill="#3D5170"/>
+<text x="978" y="238" font-size="12" fill="#A9B9CE" font-weight="400" text-anchor="start">只换非种子，种子不动</text>
+<circle cx="966" cy="258" r="2.2" fill="#3D5170"/>
+<text x="978" y="262" font-size="12" fill="#A9B9CE" font-weight="400" text-anchor="start">局部最优就扰动重启</text>
+<path d="M1000 292 V330 H300 V292" fill="none" stroke="#FB718555" stroke-width="1.4" stroke-dasharray="6 5" marker-end="url(#ar)"/>
+<text x="650" y="352" font-size="11.5" fill="#B98A96" font-weight="400" text-anchor="middle">未消除则随机扰动重启，最多 8 次；仍有冲突就如实写进抽签留痕，交给组织者</text>
+<rect x="48" y="366" width="1104" height="40" rx="10" fill="#101A2C" stroke="#25344D" stroke-width="1"/>
+<text x="68" y="391" font-size="12" fill="#9FB0C7" font-weight="400" text-anchor="start">结果不是一句「已抽签」：每一步的签位快照都入库，公平性报告给出得分、分区种子数、首轮同单位对数。</text>
+</svg>
