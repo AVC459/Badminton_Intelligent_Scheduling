@@ -1,0 +1,24 @@
+{
+  "name": "badminton-tournament",
+  "version": "1.0.0",
+  "description": "羽毛球比赛智能淘汰赛编排系统",
+  "main": "main.js",
+  "scripts": {
+    "dev": "uni-app dev",
+    "build": "uni-app build"
+  },
+  "dependencies": {
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@dcloudio/uni-app": "^2.0.0",
+    "@dcloudio/uni-cli": "^2.0.0"
+  },
+  "keywords": [
+    "uni-app",
+    "badminton",
+    "tournament"
+  ],
+  "author": "",
+  "license": "MIT"
+}

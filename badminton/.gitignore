@@ -1,0 +1,45 @@
+### ============ uni-app 前端（本项目主体） ============
+# 编译产物：可重新生成，且体积大（当前约 4.5M）
+unpackage/
+
+# 依赖：本地安装即可，不入库
+node_modules/
+
+# uni-app / HBuilderX 本地状态
+.hbuilderx/local/
+unpackage/res/icons/*.png
+
+### ============ 后端（已拆分到同级 backend/ 目录） ============
+# 若前后端在同一仓库，下面几条在后端目录同样生效
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+HELP.md
+*.class
+
+### ============ IDE ============
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+
+### ============ OS ============
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+### ============ 本地配置（含个人 AppID / 局域网 IP，不应共享） ============
+# 注意：project.private.config.json 含个人配置，多机协作时建议忽略
+# 若团队需要统一配置，删掉下面这行
+project.private.config.json
+
+### ============ 临时文件 ============
+*.log
+*.tmp
+_backup_*/
